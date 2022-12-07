@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://mern-authentication-backend.onrender.com/api/auth";
 
 // Register User
 const register = async (userData) => {
